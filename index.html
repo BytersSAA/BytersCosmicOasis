@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Oasis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>COSMIC OASIS</h1>
+        </header>
+        <main>
+            <section id="status">
+                <h2>Station Status</h2>
+                <p>Oxygen Level: <span id="oxygen-level">20</span>%</p>
+                <p>Temperature: <span id="temperature">22</span>°C</p>
+                <p>Humidity: <span id="humidity">50</span>%</p>
+                <p>Pressure: <span id="pressure">1013</span> hPa</p>
+                <p>Fuel Level: <span id="fuel-level">0</span>%</p>
+                <p>Dock Status: <span id="dock-status">Undocked</span></p>
+                <p>Location: Latitude <span id="latitude">0.00</span>, Longitude <span id="longitude">0.00</span></p>
+            </section>
+            <div id="controls">
+                <button id="dock-button">Dock Rocket</button>
+                <button id="undock-button">Undock Rocket</button>
+                <button id="refuel-button" disabled>Refuel Rocket</button>
+                <button id="stop-refuel-button">Stop Refueling</button>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Space Refueling Station</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
